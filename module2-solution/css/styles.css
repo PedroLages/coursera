@@ -1,18 +1,9 @@
-/*desktop: 992px up   tablet: 768px and 991px   mobile  767px down
-set the font size of the heading  and section title to be 75% larger
-and 25% larger (respectively) than the font size of the dummy text. */
 
 /* Base styles */
 * {
 	box-sizing: border-box;  
 	margin: 0;   
 	padding: 0; 
-}
-
-:after, :before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
 }
 
 html {
@@ -22,7 +13,6 @@ html {
 body {
 	font-size: 1em;
 	font-family: "Open Sans";
-	line-height: 1.5; 
 	color: #8A97A0;
 }
 
@@ -32,7 +22,6 @@ body {
 /* Layout */
 .wrapper {
 	width: 100%;
-	/*max-width: 992px;*/
 	margin: auto;
 }
 
@@ -60,7 +49,7 @@ body {
 .card {
 	background: #F4F7F8;
 	border: 1px solid #384047;
-	border-radius: 4px;
+	border-radius: 2px;
 	position: relative;
 }
 
@@ -73,7 +62,7 @@ body {
 	width: 130px;
 	padding: 5px 0;
 	text-align: center;
-	border-radius: 0 0 0 4px;
+	border-radius: 0 0 0 2px;
 }
 
 .card-content {
