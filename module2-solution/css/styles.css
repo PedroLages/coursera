@@ -56,6 +56,7 @@ body {
 .card-title {
 	font-size: 1.25em; 
 	border: 1px solid #384047;
+        border-top: 0;
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -71,7 +72,7 @@ body {
 }
 
 /* Colors */
-.chiken {
+.chicken {
 	background: #405264;
 	color: #F4F7F8;
 }
